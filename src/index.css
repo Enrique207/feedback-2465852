@@ -62,7 +62,7 @@ header {
 .rating li,
 .num-display {
   position: relative;
-  background: #f4f4f4;
+  background: #218eb9;
   width: 50px;
   height: 50px;
   padding: 10px;
@@ -103,7 +103,7 @@ header {
 .input-group {
   display: flex;
   flex-direction: row;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(46, 29, 29);
   padding: 8px 10px;
   border-radius: 8px;
 }
@@ -146,10 +146,9 @@ input:focus {
 }
 
 .btn {
-  color: #fff;
   border: 0;
   border-radius: 8px;
-  color: #fff;
+  color: rgb(189, 19, 19);
   width: 100px;
   height: 40px;
   cursor: pointer;
@@ -169,7 +168,7 @@ input:focus {
 }
 
 .btn:disabled {
-  background-color: #cccccc;
+  background-color: #cecdcd;
   color: #333;
   cursor: auto;
 }

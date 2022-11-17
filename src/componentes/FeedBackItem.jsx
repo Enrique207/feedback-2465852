@@ -31,10 +31,10 @@ const FeedBackItem = () =>{
             </div>
             <div className="text-display">
                 {text}
-                <button onClick={addNota}>
+                <button className="btn" onClick={addNota}>
                     Sumar Nota
                 </button>
-                <button onClick={resNota}>
+                <button className="btn" onClick={resNota}>
                     Restar Nota
                 </button>
             </div>
