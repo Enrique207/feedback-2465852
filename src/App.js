@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./componentes/Header";
+import FeedBackItem from "./componentes/FeedBackItem";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(){
+
+        //objeto de estilos:
+        const HeaderStyles = {
+            backgroundColor: '#3ba3ed',
+            color:'white'
+        }
+
+    return (
+        <div className="container">
+            {/* props: atributicos de etiquetica de un componentico*/}
+            <Header 
+            bgColor={HeaderStyles.backgroundColor}
+                color={HeaderStyles.color}/>
+            <FeedBackItem/>
+            <FeedBackItem/>
+            <FeedBackItem/>
+            <FeedBackItem/>
+            
+        </div>
+    )
 }
 
 export default App;
